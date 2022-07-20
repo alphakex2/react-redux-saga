@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .previousBtn {
+    @apply border border-yellow-400 text-black hover:text-white hover:bg-yellow-500 p-2 rounded-md text-lg w-10 h-10 text-center hover:opacity-75;
+  }
+  .nextBtn {
+    @apply border border-yellow-400 text-black hover:text-white hover:bg-yellow-500 p-2 rounded-md text-lg w-10 h-10 text-center hover:opacity-75;
+  }
+  .paginationBtnsContainer {
+    @apply flex justify-evenly mt-5;
+  }
+  .pageNoBtn {
+    @apply border border-yellow-400 text-black hover:text-white hover:bg-yellow-500 p-2 rounded-full text-lg w-10 h-10 text-center hover:opacity-75;
+  }
+
+  .paginationActive {
+    @apply bg-yellow-700
+  }
+
+}
